@@ -201,13 +201,3 @@ t.test(london$percentage_public, london$percentage_home)
 t.test(london$percentage_deprived, london$percentage_public)
 
 t.test(london$percentage_deprived, london$percentage_home)
-
-library(stargazer)
-stargazer(ttest_public, type = "text", title = "T-Test between Deprivation and Public Transport use", single.row = T)
-
-
-
-
-
-
-
